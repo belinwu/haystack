@@ -13,7 +13,7 @@ from haystack.components.converters.utils import get_bytestream_from_source, nor
 from haystack.dataclasses import ByteStream
 from haystack.lazy_imports import LazyImport
 
-with LazyImport("Run 'pip install pypdf'") as pypdf_import:
+with LazyImport("Run 'pip install pypdf>=3.9.0'") as pypdf_import:
     from pypdf import PdfReader
 
 

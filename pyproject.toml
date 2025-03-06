@@ -101,7 +101,7 @@ extra-dependencies = [
   "en-core-web-trf @ https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.8.0/en_core_web_trf-3.8.0-py3-none-any.whl",
 
   # Converters
-  "pypdf",                            # PyPDFToDocument
+  "pypdf>=3.9.0",                     # PyPDFToDocument
   "pdfminer.six",                     # PDFMinerToDocument
   "markdown-it-py",                   # MarkdownToDocument
   "mdit_plain",                       # MarkdownToDocument
